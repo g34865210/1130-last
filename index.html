@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no">
+    <title>myproject</title>
+	  <link rel="stylesheet" href="./static/css/reset.css">
+	  <link rel="stylesheet" href="http://at.alicdn.com/t/font_1194997_lr1jnnngf4e.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      // rem适配
+      !(function () {
+        let width = document.documentElement.clientWidth;
+        const styleNode = document.createElement('style');
+        styleNode.innerHTML = 'html{font-size: ' + width / 10 + 'px  !important;}';
+        document.head.appendChild(styleNode);
+      })();
+    </script>
+  </body>
+</html>
