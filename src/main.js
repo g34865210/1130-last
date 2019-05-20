@@ -6,7 +6,14 @@ import router from './router'
 import store from './store'
 import './mock/mock-server'
 
+import Split from './components/Split/Split'
+
+
+Vue.component('Split', Split);
+
+
 Vue.config.productionTip = false;
+
 
 /* eslint-disable no-new */
 new Vue({

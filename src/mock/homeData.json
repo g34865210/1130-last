@@ -2,17 +2,17 @@
   "component1": "-----------------服务策略-----------------",
   "policyDescList": [
     {
-      "icon": "http://yanxuan.nosdn.127.net/cae45612b8aae577d8bd73338e2fc02c.png",
+      "icon": "http://yanxuan.nosdn.127.net/a03dd909803b9ac032eba58b7253a2f6.png",
       "schemeUrl": "",
       "desc": "网易自营品牌"
     },
     {
-      "icon": "http://yanxuan.nosdn.127.net/cae45612b8aae577d8bd73338e2fc02c.png",
+      "icon": "http://yanxuan.nosdn.127.net/2d0402ffcd52b3ec3b07422681c42a89.png",
       "schemeUrl": "",
       "desc": "30天无忧退货"
     },
     {
-      "icon": "http://yanxuan.nosdn.127.net/cae45612b8aae577d8bd73338e2fc02c.png",
+      "icon": "http://yanxuan.nosdn.127.net/eb61ee48e8942dbd1784c9ee75ebe955.png",
       "schemeUrl": "",
       "desc": "48小时快速退款"
     }
@@ -637,6 +637,423 @@
       "retailPrice": 199.00,
       "status": 2
     }
+  ],
+  "personalShopArr": [
+    [
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/827d9d95a1710636a1ebf99e1e61f93d.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/385af762f7d98ae51e3d02d33a9e1df5.png",
+        "tagId": 1001038,
+        "simpleDesc": "精挑手工慢做，典雅大气",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1647034",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1647034,
+        "sellVolume": 1459,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/827d9d95a1710636a1ebf99e1e61f93d.png",
+        "tagName": "Coach制造商",
+        "pieceUnitDesc": "件",
+        "resourcesId": 1,
+        "name": "男士优质小牛皮手工正装鞋",
+        "productPlace": "",
+        "counterPrice": 659.00,
+        "couponPrice": 0,
+        "retailPrice": 659.00,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/72eb76506fb94adce584c74b930a6a92.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/55425f24345d01992d61a1646325ac94.png",
+        "tagId": 0,
+        "simpleDesc": "高档、精致、省心的礼赠佳品",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1282032",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1282032,
+        "sellVolume": 104519,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/72eb76506fb94adce584c74b930a6a92.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 2,
+        "name": "严选礼品卡 1000元面值",
+        "productPlace": "",
+        "counterPrice": 1000.00,
+        "couponPrice": 0,
+        "retailPrice": 1000.00,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/08d70669cde364478e6eac5a81221ecb.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/6c8f8040e442947e2054ffde43b84e74.png",
+        "tagId": 1080000,
+        "simpleDesc": "木质沉香，肃穆甘醇",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1500021",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1500021,
+        "sellVolume": 20201,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/08d70669cde364478e6eac5a81221ecb.png",
+        "tagName": "海外制造商",
+        "pieceUnitDesc": "件",
+        "resourcesId": 3,
+        "name": "日本制造 居室线香 沉香",
+        "productPlace": "日本制造",
+        "counterPrice": 69.00,
+        "couponPrice": 0,
+        "retailPrice": 69.00,
+        "status": 2
+      }
+    ],
+    [
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/85b9c081a3859fbff67a54f9222ad068.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/897ddfb7a57f0b4dc5c39590373cef55.png",
+        "tagId": 1080000,
+        "simpleDesc": "COSME大赏销量冠军",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1076010",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1076010,
+        "sellVolume": 1406,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/85b9c081a3859fbff67a54f9222ad068.png",
+        "tagName": "海外制造商",
+        "pieceUnitDesc": "支",
+        "resourcesId": 4,
+        "name": "日本制造 24K金T型美容棒 ",
+        "productPlace": "日本制造",
+        "counterPrice": 459.00,
+        "couponPrice": 0,
+        "retailPrice": 459.00,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/1985e340c80c8b8b92555368faadbd89.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/96dbf7cb44b1c504589b6e42c6e5e53a.png",
+        "tagId": 0,
+        "simpleDesc": "进口燕窝，东方珍品",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1398015",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1398015,
+        "sellVolume": 9722,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/1985e340c80c8b8b92555368faadbd89.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 5,
+        "name": "即食燕窝 70克*6瓶 30%",
+        "productPlace": "",
+        "counterPrice": 258.00,
+        "couponPrice": 0,
+        "retailPrice": 258.00,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/38253e4bc864ded67fe49a34fcbf70b0.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/02da8bce2fa3a182d398f6a09e8ac2f5.png",
+        "tagId": 0,
+        "simpleDesc": "超强保温升级版，316不锈钢",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [
+          {
+            "itemId": 1327000,
+            "tagId": 127912007,
+            "name": "加价购",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+          }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1327000",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1327000,
+        "sellVolume": 8959,
+        "isCouponConflict": false,
+        "colorNum": 4,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/38253e4bc864ded67fe49a34fcbf70b0.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 6,
+        "name": "德式轻量保温杯",
+        "productPlace": "",
+        "counterPrice": 119.00,
+        "couponPrice": 0,
+        "retailPrice": 119.00,
+        "status": 2
+      }
+    ],
+    [
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/74452c652a03866b6de171362f9ab4a8.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/122a30188b07fa93daf3257da917296b.png",
+        "tagId": 0,
+        "simpleDesc": "瞬间吸尘，无线自由，家居/汽车两用",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1401006",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1401006,
+        "sellVolume": 6489,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/74452c652a03866b6de171362f9ab4a8.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 7,
+        "name": "网易智造T300无线吸尘器",
+        "productPlace": "",
+        "counterPrice": 1599.00,
+        "couponPrice": 0,
+        "retailPrice": 1599.00,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/4543237fbea85b3f72e650030958b9ca.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/021188f19de55d4e146dee96b9a0e104.png",
+        "tagId": 1001037,
+        "simpleDesc": "71升容量升级 灵活出行",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1306026",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1306026,
+        "sellVolume": 14185,
+        "isCouponConflict": false,
+        "colorNum": 9,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/4543237fbea85b3f72e650030958b9ca.png",
+        "tagName": "新秀丽制造商",
+        "pieceUnitDesc": "件",
+        "resourcesId": 8,
+        "name": "24寸 纯PC“铝框”（非全铝）拉杆箱",
+        "productPlace": "",
+        "counterPrice": 389.00,
+        "couponPrice": 0,
+        "retailPrice": 389.00,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/1e18863d306689a49ca0370a269ba0db.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/bf42027b16a3fe26817334986579b237.png",
+        "tagId": 0,
+        "simpleDesc": "轻巧便携，亲肤裸睡",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1506045",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1506045,
+        "sellVolume": 9871,
+        "isCouponConflict": false,
+        "colorNum": 3,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/1e18863d306689a49ca0370a269ba0db.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 9,
+        "name": "可裸睡纯棉便携睡袋",
+        "productPlace": "",
+        "counterPrice": 129.00,
+        "couponPrice": 0,
+        "retailPrice": 129.00,
+        "status": 2
+      }
+    ],
+    [
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/4462d78e094d81c02278fdc02e4ddbfa.jpg",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/5d05765db4a62c4b4f508b55bea46cde.png",
+        "tagId": 0,
+        "simpleDesc": "100%德国扬子羊毛，非凡触感，体验德国双股扬子纱",
+        "primarySkuPreSellPrice": 0,
+        "promTag": "限时购",
+        "limitedFlag": 203,
+        "newItemFlag": false,
+        "itemTagList": [
+          {
+            "itemId": 1542019,
+            "tagId": 127913069,
+            "name": "限时购",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+          }
+        ],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1542019",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1542019,
+        "sellVolume": 3190,
+        "isCouponConflict": true,
+        "colorNum": 6,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/4462d78e094d81c02278fdc02e4ddbfa.jpg",
+        "pieceUnitDesc": "件",
+        "resourcesId": 10,
+        "name": "100%羊毛 女式全成型超细高领羊毛衫",
+        "productPlace": "",
+        "counterPrice": 399.00,
+        "couponPrice": 0,
+        "retailPrice": 259,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/2f8003807cd2fdab352e59aad97656b2.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/cacc35a5297026653621be30c1a51e87.png",
+        "tagId": 0,
+        "simpleDesc": "非油炸 好吃不上火",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1292003",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1292003,
+        "sellVolume": 99932,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/2f8003807cd2fdab352e59aad97656b2.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 11,
+        "name": "大丈夫冻干牛肉面",
+        "productPlace": "4个规格",
+        "counterPrice": 33.90,
+        "couponPrice": 0,
+        "retailPrice": 33.90,
+        "status": 2
+      },
+      {
+        "scenePicUrl": "http://yanxuan.nosdn.127.net/52b4876b561380e42ff5aa1342545523.png",
+        "listPicUrl": "http://yanxuan.nosdn.127.net/1ab2a64ea59b1bdd14e8062d4972ad6b.png",
+        "tagId": 0,
+        "simpleDesc": "慢品生活，山水相伴",
+        "primarySkuPreSellPrice": 0,
+        "limitedFlag": 0,
+        "newItemFlag": false,
+        "itemTagList": [],
+        "primarySkuPreSellStatus": 0,
+        "pieceNum": 0,
+        "extra": {
+          "recommend": {
+            "itemId": "1617000",
+            "rcmdSerinalNum": "353df3597eb498cd79c711a5f07dd24f#2.0.0.0"
+          },
+          "modelType": 2
+        },
+        "id": 1617000,
+        "sellVolume": 1474,
+        "isCouponConflict": false,
+        "colorNum": 0,
+        "primaryPicUrl": "http://yanxuan.nosdn.127.net/52b4876b561380e42ff5aa1342545523.png",
+        "pieceUnitDesc": "件",
+        "resourcesId": 12,
+        "name": "半岳杯 茶水分离私品杯",
+        "productPlace": "",
+        "counterPrice": 199.00,
+        "couponPrice": 0,
+        "retailPrice": 199.00,
+        "status": 2
+      }
+    ]
   ],
   "component5": "-----------------限时购-----------------",
   "flashSaleModule": {

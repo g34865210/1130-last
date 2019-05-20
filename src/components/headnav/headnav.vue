@@ -10,10 +10,15 @@
 		</div>
 		<div class="header-nav">
 			<ul>
-				<li class="active"><a href="javascript:void(0);">推荐</a></li>
-				<li>居家生活</li>
-				<li>服饰鞋包</li>
-				<li>美食酒水</li>
+				<li><a href="javascript:">推荐</a></li>
+				<li><a href="javascript:">居家生活</a></li>
+				<li><a href="javascript:">服饰鞋包</a></li>
+				<li><a href="javascript:">美食酒水</a></li>
+				<li><a href="javascript:">个户清洁</a></li>
+				<li><a href="javascript:">母婴亲子</a></li>
+				<li><a href="javascript:">运动旅行</a></li>
+				<li><a href="javascript:">数码家电</a></li>
+				<li><a href="javascript:">礼品特色</a></li>
 			</ul>
 			<span class="iconfont icon-icon-test1" @click="toggleShow"></span>
 		</div>
@@ -29,12 +34,19 @@
 </template>
 
 <script>
+  import Bscroll from 'better-scroll'
   export default {
     name: "headnav",
 	  data(){
       return{
         isOpen:true
       }
+	  },
+	  mounted(){
+      new Bscroll(".header-nav", {
+        scrollX: true,
+	      click:true
+      })
 	  },
 	  methods:{
       toggleShow(){
@@ -52,6 +64,7 @@
 		height 150px
 		width 100%
 		background-color #fff
+		z-index 1000
 		.header-search-login
 			display flex
 			justify-content space-around
