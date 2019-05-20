@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-	  <headernav></headernav>
+	  <headernav v-show="$route.meta.showHeader"></headernav>
 	  <router-view></router-view>
-	  <footernav></footernav>
+	  <footernav v-show="$route.meta.showFooter"></footernav>
   </div>
 </template>
 

@@ -8,8 +8,11 @@ import './mock/mock-server'
 
 import Split from './components/Split/Split'
 
+import header_search from './components/headnav/header_search/header_search'
+
 
 Vue.component('Split', Split);
+Vue.component('headerSearch', header_search);
 
 
 Vue.config.productionTip = false;

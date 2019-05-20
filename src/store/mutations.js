@@ -1,4 +1,4 @@
-import {RECEIVE_HOME,RECEIVE_POLICYDESCLIST} from './mutation-types'
+import {RECEIVE_HOME,RECEIVE_POLICYDESCLIST,RECEIVE_CATEGORY} from './mutation-types'
 
 export default {
   [RECEIVE_HOME] (state,home) {
@@ -6,5 +6,8 @@ export default {
   },
   [RECEIVE_POLICYDESCLIST] (state,policydesclist) {
     state.policydesclist = policydesclist
+  },
+  [RECEIVE_CATEGORY] (state,category) {
+    state.category = category
   },
 }

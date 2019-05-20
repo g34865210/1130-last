@@ -4,7 +4,7 @@
     <div class="copy_right_box">
       <div class="top_right_info">
         <a class="download_app" href="javascript:">下载APP</a>
-        <a class="download_win" href="javascript:">电脑版</a>
+	      <a class="download_win" href="javascript:">电脑版</a>
       </div>
       <p class="copy_right">
         <span class="copy_admin">耶梦加德 版权所有 ©copyright</span>

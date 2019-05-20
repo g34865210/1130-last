@@ -1,5 +1,5 @@
-import {reqHome,reqpolicydesclist} from "../api"
-import {RECEIVE_HOME,RECEIVE_POLICYDESCLIST} from './mutation-types'
+import {reqHome,reqpolicydesclist,reqcategory} from "../api"
+import {RECEIVE_HOME,RECEIVE_POLICYDESCLIST,RECEIVE_CATEGORY} from './mutation-types'
 
 export default {
   async gethome({commit}){
@@ -17,5 +17,15 @@ export default {
       const policyescList = result.data;
       commit(RECEIVE_POLICYDESCLIST,policyescList)
     }
-  }
+  },
+
+
+  async getcategory({commit}){
+    const result = await reqcategory();
+
+    if(result.code === 0){
+      const category = result.data;
+      commit(RECEIVE_CATEGORY,category)
+    }
+  },
 }

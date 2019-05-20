@@ -2,7 +2,7 @@
 	<div>
 		<div class="categoryModule" v-for="(item,index) in categoryModule" :key="index">
 			<img :src="item.titlePicUrl" alt="">
-			<div class="container">
+			<div class="container1" :class="'container1'+index">
 				<ul>
 					<li v-for="(every,index) in item.itemList" :key="index">
 						<img class="good_img" :src="every.primaryPicUrl" alt="">
@@ -19,16 +19,28 @@
 
 <script>
   import {mapState} from 'vuex'
-  import Bscroll from 'better-scroll'
+  import BScroll from 'better-scroll'
   export default {
     name: "categoryModule",
-	  mounted(){
-      new Bscroll(".container", {scrollX: true})
-	  },
+	  // mounted(){
+    //     setTimeout(() => {
+    //       new BScroll(".container1", {scrollX: true,click:true})
+    //     }, 2000)
+	  // },
+    
     computed: {
       ...mapState({
         categoryModule: state => state.home.categoryModule
       })
+    },
+    watch:{
+      categoryModule(){
+        this.$nextTick(() => {
+          for(let i=0; i<this.categoryModule.length;i++){
+            new BScroll(".container1"+i, {click: true, scrollX: true})
+          }
+        })
+      }
     },
   }
 </script>
@@ -40,14 +52,13 @@
 		>img
 			width 100%
 			margin-bottom 20px
-		.container
+		.container1
 			overflow hidden
 			clearFix()
 			ul
 				display flex
 				float left
 				li
-					float left
 					height 333px
 					margin-right 20px
 					font-size 24px

@@ -1,13 +1,9 @@
 <template>
 	<div class="header-container">
-		<div class="header-search-login">
-			<span class="log"></span>
-			<div class="searchInput">
-				<i class="iconfont icon-icon-test"></i>
-				<span class="placeholder">搜索商品，共xxxxx款好物</span>
-			</div>
-			<button>登录</button>
-		</div>
+		<headerSearch placehoder="搜索商品，共21726件好物">
+			<span class="log" slot="left"></span>
+			<button slot="right">登录</button>
+		</headerSearch>
 		<div class="header-nav">
 			<ul>
 				<li><a href="javascript:">推荐</a></li>
@@ -22,13 +18,22 @@
 			</ul>
 			<span class="iconfont icon-icon-test1" @click="toggleShow"></span>
 		</div>
-		<div class="navbox-wrapper" v-if="!isOpen">
-			<div class="nav-box">
-				<div class="all-category">
-					<span>全部频道</span>
-					<i class="iconfont icon-icon-test2" @click="toggleShow"></i>
-				</div>
+		<div class="allnav_box" v-show="!isOpen">
+			<div>
+				<p>全部频道</p>
+				<span class="iconfont icon-icon-test2" @click="toggleShow"></span>
 			</div>
+			<ul>
+				<li><a href="javascript:">推荐</a></li>
+				<li><a href="javascript:">居家生活</a></li>
+				<li><a href="javascript:">服饰鞋包</a></li>
+				<li><a href="javascript:">美食酒水</a></li>
+				<li><a href="javascript:">个户清洁</a></li>
+				<li><a href="javascript:">母婴亲子</a></li>
+				<li><a href="javascript:">运动旅行</a></li>
+				<li><a href="javascript:">数码家电</a></li>
+				<li><a href="javascript:">礼品特色</a></li>
+			</ul>
 		</div>
 	</div>
 </template>
@@ -65,46 +70,7 @@
 		width 100%
 		background-color #fff
 		z-index 1000
-		.header-search-login
-			display flex
-			justify-content space-around
-			align-items center
-			width 100%
-			height 88px
-			font-size 30px
-			padding 25px
-			box-sizing border-box
-			.log
-				flex 2
-				height 40px
-				background-image url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexLogo-a90bdaae6b.png")
-				background-repeat no-repeat
-				background-size 138px 40px
-				background-position center
-				margin-right 10px
-			.searchInput
-				flex 7
-				height 56px
-				border-radius 10px
-				border none
-				background-color rgba(0,0,0,.1)
-				text-align center
-				line-height 56px
-				i
-					font-size 30px
-				.placeholder
-					font-size 30px
-					color #666
-			button
-				flex 1
-				height 40px
-				margin-left 10px
-				font-size 24px
-				border-radius 10px
-				outline none
-				color $red
-				border 1px solid $red
-				background-color #fff
+		
 		.header-nav
 			position relative
 			width 100%
@@ -132,28 +98,42 @@
 				text-align center
 				line-height 60px
 				background-color #fff
-		.navbox-wrapper
-			background-color #f40
-			.nav-box
-				position absolute
-				left 0
-				top 90px
-				width 100%
-				z-index 10
-				background-color #f40
-				.all-category
-					display flex
-					justify-content space-between
-					/*position relative*/
-					font-size 30px
+		.allnav_box
+			position absolute
+			top 88px
+			left 0
+			width 100%
+			background-color #fff
+			div
+				height: 60px;
+				padding-left: 30px;
+				font-size: 28px;
+				span
+					position absolute
+					right 0
+					top 0
+					width 100px
 					height 60px
-					line-height 60px
-					margin 0 0 20px
+					font-size 30px
 					text-align center
-					span
-						margin-left 30px
-					i
-						width 100px
-						height 60px
-						font-size 30px
+					line-height 60px
+					background-color #fff
+			ul
+				display flex
+				flex-wrap wrap
+				padding-left 15px
+				li
+					width 165px
+					margin 7.5px
+					padding 0 16px
+					box-sizing border-box
+					font-size 28px
+					line-height 60px
+					color #333
+					background-color: #fafafa
+					border 2px solid $borderBgc
+					border-radius 8px
+					display flex
+					align-items center
+					justify-content center
 </style>
