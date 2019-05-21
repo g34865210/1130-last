@@ -15,7 +15,7 @@
     name: "Nav",
     computed : {
     ...mapState({
-	    Nav : state => state.home.kingKongModule
+	    Nav : state => state.home.home.kingKongModule
     })
     }
   }

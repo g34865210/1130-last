@@ -1,6 +1,7 @@
 <template>
 	<div>
-		<headerSearch placehoder="搜索商品, 共19999件好物"></headerSearch>
+		<headerSearch placehoder="搜索商品, 共19999件好物">
+		</headerSearch>
 		<div class="container">
 			<div class="left_nav">
 				<ul v-if="category">
@@ -41,7 +42,9 @@
       }
 	  },
     computed: {
-      ...mapState(['category'])
+      ...mapState({
+        category:state => state.category.category
+      })
     },
     async mounted () {
       await this.$store.dispatch("getcategory");

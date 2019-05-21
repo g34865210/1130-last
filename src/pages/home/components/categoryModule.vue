@@ -30,7 +30,7 @@
     
     computed: {
       ...mapState({
-        categoryModule: state => state.home.categoryModule
+        categoryModule: state => state.home.home.categoryModule
       })
     },
     watch:{

@@ -32,7 +32,7 @@
     name: "zhongChouList",
     computed: {
       ...mapState({
-        zhongChouList: state => state.home.zhongChouList
+        zhongChouList: state => state.home.home.zhongChouList
       })
     },
   }

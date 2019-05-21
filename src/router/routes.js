@@ -4,6 +4,10 @@ import things from '../pages/things/things'
 import shopcard from '../pages/shopcard/shopcard'
 import category from '../pages/category/category'
 
+// things
+import find from '../pages/things/find/find'
+import choice from '../pages/things/choice/choice'
+
 
 
 export default[
@@ -27,7 +31,27 @@ export default[
     component:things,
     meta: {
       showFooter: true,
-    }
+    },
+    children:[
+      {
+        path: '/things/find',
+        component:find,
+        meta: {
+          showFooter: true,
+        },
+      },
+      {
+        path: '/things/choice',
+        component:choice,
+        meta: {
+          showFooter: true,
+        },
+      },
+      {
+        path: '/things',
+        redirect: '/things/find'
+      }
+    ]
   },
   {
     path:'/shopcard',

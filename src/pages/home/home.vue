@@ -116,8 +116,12 @@
     },
     
     computed:{
-      ...mapState(['home']),
-	    ...mapState(['policydesclist'])
+      ...mapState({
+        home: state => state.home.home,
+      }),
+      ...mapState({
+        policydesclist: state => state.policydesclist.policydesclist
+      })
     }
   }
 </script>

@@ -21,6 +21,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>
+	@import "../../../common/stylus/mixins.styl"
 	.header-search-login
 		position relative
 		display flex
@@ -31,6 +32,7 @@
 		font-size 30px
 		padding 20px
 		box-sizing border-box
+		background white
 		z-index 100
 		.log
 			flex 2

@@ -24,7 +24,7 @@
     name: "newItemList",
     computed : {
       ...mapState({
-        newItemList : state => state.home.newItemList
+        newItemList : state => state.home.home.newItemList
       })
     }
   }

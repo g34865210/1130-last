@@ -29,7 +29,7 @@
     },
     computed: {
       ...mapState({
-        personalShop: state => state.home.personalShopArr
+        personalShop: state => state.home.home.personalShopArr
       })
     },
     watch:{

@@ -29,7 +29,7 @@
     name: "flashSaleModule",
     computed : {
       ...mapState({
-        flashSaleModule : state => state.home.flashSaleModule
+        flashSaleModule : state => state.home.home.flashSaleModule
       })
     }
   }

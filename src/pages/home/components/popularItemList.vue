@@ -25,7 +25,7 @@
     name: "popularItemList",
     computed: {
       ...mapState({
-        popularItemList: state => state.home.popularItemList
+        popularItemList: state => state.home.home.popularItemList
       })
     },
   }

@@ -17,7 +17,7 @@
     name: "sceneLightShopping",
 	  computed:{
       ...mapState({
-        sceneLightShopping : state => state.home.sceneLightShoppingGuideModule
+        sceneLightShopping : state => state.home.home.sceneLightShoppingGuideModule
       })
 	  }
   }
